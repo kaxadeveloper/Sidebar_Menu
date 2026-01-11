@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: -240px;
+    width: 240px;
+    background: #1e1e1e;
+    height: 100vh;
+    overflow-y: auto;
+    transition: all .3s;
+}
+
+ul li {
+    height: 65px;
+    outline: none;
+}
+
+ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 70px;
+    font-size: 20px;
+    color: white;
+    padding-left: 10%;
+    background: #1e1e1e;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    border-left: 5px solid transparent;
+}
+
+li a.contact {
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.active a {
+    color: #B93632;
+    border-left: 5px solid #B93632;
+    background: #1B1B1B;
+}
+
+section {
+    margin-left: 0px;
+    transition: all .3s;
+}
+
+i {
+    position: fixed;
+    margin: 20px 25px;
+    font-size: 40px;
+    color: orangered;
+    cursor: pointer;
+}
+
+.sec1 {
+    margin-left: -20px;
+    background: url(img/home.jpg) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.sec2 {
+    margin-left: -20px;
+    background: url(img/about.jpg) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.sec3 {
+    margin-left: -20px;
+    background: url(img/portfolio.png) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.sec4 {
+    margin-left: -20px;
+    background: url(img/gallery.jpg) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.sec5 {
+    margin-left: -20px;
+    background: url(img/services.jpg) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.sec6 {
+    margin-left: -20px;
+    background: url(img/feedback.jpg) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.sec7 {
+    margin-left: -20px;
+    background: url(img/contact.jpg) no-repeat center;
+    background-size: contain;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 15px 20px;
+}
+
+p {
+    padding: 0 20px 10px 20px;
+    text-align: justify;
+}
+
+.ul_show {
+    margin-left: 0px;
+}
+
+.slide_image {
+    margin-left: 260px;
+}
